@@ -1,5 +1,6 @@
 import NextAuth from "next-auth";
 
+import { connectToDB } from "@utils/database";
 import User from "@models/user";
 import GithubProvider from "next-auth/providers/github";
 
